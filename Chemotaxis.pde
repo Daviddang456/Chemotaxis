@@ -7,7 +7,7 @@ boolean gameOver = false;
 Bacteria [] bug;
 void setup(){
   size(500, 500);
-  bug = new Bacteria[100];
+  bug = new Bacteria[50];
   for(int i = 0; i < bug.length; i++){
      bug[i] = new Bacteria();
    }
